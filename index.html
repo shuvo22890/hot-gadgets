@@ -12,6 +12,236 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <nav class="navbar container navbar-expand-lg py-2 navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" class="img-fluid" alt="Logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav text-end ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Products</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+    <section class="slider">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators mb-0 customIndex">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="container innerBg carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row align-items-center flex-column-reverse flex-md-row">
+                        <div class="col-md-6">
+                            <div class="mt-3 mt-md-0  slideProInfo">
+                                <h2>Mackbook Pro</h2>
+                                <p class="my-4 text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum dolore sed dolorum corporis tempore tempore minima soluta sit atque minima soluta sit atque!</p>
+                                <a href="#" class="btn btn-dark text-light text-uppercase">Buy Now &#8594;</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <img src="img/banner-products/slider-1.png" class="d-block img-fluid w-100">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row align-items-center flex-column-reverse flex-md-row">
+                        <div class="col-md-6">
+                            <div class="mt-3 mt-md-0  slideProInfo">
+                                <h2>Cool Alexa</h2>
+                                <p class="my-4 text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum dolore sed dolorum corporis tempore tempore minima soluta sit atque minima soluta sit atque!</p>
+                                <a href="#" class="btn btn-dark text-light text-uppercase">Buy Now &#8594;</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <img src="img/banner-products/slider-2.png" class="d-block img-fluid w-100">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row align-items-center flex-column-reverse flex-md-row">
+                        <div class="col-md-6">
+                            <div class="mt-3 mt-md-0  slideProInfo">
+                                <h2>High Quality Speaker</h2>
+                                <p class="my-4 text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum dolore sed dolorum corporis tempore tempore minima soluta sit atque minima soluta sit atque!</p>
+                                <a href="#" class="btn btn-dark text-light text-uppercase">Buy Now &#8594;</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <img src="img/banner-products/slider-3.png" class="d-block img-fluid w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container px-0 smartphone">
+        <div class="mb-5 px-2 proTitleBar">
+            <h3 class="d-flex text-dark m-0 justify-content-between">Smartphone <a href="#" class="text-decoration-none d-flex align-items-center fs-5">See All</a></h3>
+        </div>
+
+        <div class="text-center card-group proWrap">
+            <div class="mx-1 mx-md-2 px-md-3 card border-0 my-5 py-3 my-sm-0 proShadow">
+                <img src="img/phone/phone-1.png" class="card-img-top m-auto p-sm-1 p-md-0">
+
+                <div class="pb-0 px-0 px-sm-2 card-body">
+                    <h4 class="my-3 card-title">Redmi Note 10</h4>
+
+                    <p class="text-secondary card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="bg-transparent border-0 card-footer mt-1">
+                    <h5 class="price">$699</h5>
+                    <a href="#" class="btn btn-dark text-light text-uppercase">Buy Now &#8594;</a>
+                </div>
+            </div>
+
+            <div class="mx-1 mx-md-2 px-md-3 card border-0 my-5 py-3 my-sm-0 proShadow">
+                <img src="img/phone/phone-2.png" class="card-img-top m-auto p-sm-1 p-md-0">
+
+                <div class="pb-0 px-0 px-sm-2 card-body">
+                    <h4 class="my-3 card-title">IPhone 11 Pro</h4>
+
+                    <p class="text-secondary card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="bg-transparent border-0 card-footer mt-1">
+                    <h5 class="price">$999</h5>
+                    <a href="#" class="btn btn-dark text-light text-uppercase">Buy Now &#8594;</a>
+                </div>
+            </div>
+
+            <div class="mx-1 mx-md-2 px-md-3 card border-0 my-5 py-3 my-sm-0 proShadow">
+                <img src="img/phone/phone-3.png" class="card-img-top m-auto p-sm-1 p-md-0">
+
+                <div class="pb-0 px-0 px-sm-2 card-body">
+                    <h4 class="my-3 card-title">Samsung Galaxy Note 10+</h4>
+
+                    <p class="text-secondary card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="bg-transparent border-0 card-footer mt-1">
+                    <h5 class="price">$799</h5>
+                    <a href="#" class="btn btn-dark text-light text-uppercase">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container px-0 laptop">
+        <div class="mb-5 px-2 proTitleBar">
+            <h3 class="d-flex text-dark m-0 justify-content-between">Laptop <a href="#" class="text-decoration-none d-flex align-items-center fs-5">See All</a></h3>
+        </div>
+
+        <div class="text-center card-group proWrap">
+            <div class="mx-1 mx-md-2 px-md-3 card border-0 my-5 py-3 my-sm-0 proShadow">
+                <img src="img/laptop/product-1.png" class="card-img-top m-auto p-sm-1 p-md-0">
+
+                <div class="pb-0 px-0 px-sm-2 card-body">
+                    <h4 class="my-3 card-title">Asus VivoBook</h4>
+
+                    <p class="text-secondary card-text">This is a wider card with supporting text below as a natural.</p>
+                </div>
+                <div class="bg-transparent border-0 card-footer mt-1">
+                    <h5 class="price">$999</h5>
+                    <a href="#" class="btn btn-dark text-light text-uppercase">Buy Now &#8594;</a>
+                </div>
+            </div>
+
+            <div class="mx-1 mx-md-2 px-md-3 card border-0 my-5 py-3 my-sm-0 proShadow">
+                <img src="img/laptop/product-2.png" class="card-img-top m-auto p-sm-1 p-md-0">
+
+                <div class="pb-0 px-0 px-sm-2 card-body">
+                    <h4 class="my-3 card-title">Razer Blade 15</h4>
+
+                    <p class="text-secondary card-text">This is a wider card with supporting text below as a natural.</p>
+                </div>
+                <div class="bg-transparent border-0 card-footer mt-1">
+                    <h5 class="price">$2799</h5>
+                    <a href="#" class="btn btn-dark text-light text-uppercase">Buy Now &#8594;</a>
+                </div>
+            </div>
+
+            <div class="mx-1 mx-md-2 px-md-3 card border-0 my-5 py-3 my-sm-0 proShadow">
+                <img src="img/laptop/product-3.png" class="card-img-top m-auto p-sm-1 p-md-0">
+
+                <div class="pb-0 px-0 px-sm-2 card-body">
+                    <h4 class="my-3 card-title">Xiaomi Mi Notebook Pro</h4>
+
+                    <p class="text-secondary card-text">This is a wider card with supporting text below as a natural.</p>
+                </div>
+                <div class="bg-transparent border-0 card-footer mt-1">
+                    <h5 class="price">$799</h5>
+                    <a href="#" class="btn btn-dark text-light text-uppercase">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container px-0 category">
+        <h2 class="position-relative text-center">Categories</h2>
+
+        <div class="mt-5 pt-5 catWrap">
+            <div class="row mw-100 m-0 align-items-center">
+                <div class="col-sm-6 col-md-3 px-1 px-md-3">
+                    <div class="text-center p-3 imgWrap proImg">
+                        <img class="img-fluid" src="img/Categories/bag.png">
+                        <p class="fw-bold fs-5 mt-3">Bag</p>
+                    </div>
+                </div>
+
+                <div class="mt-4 mt-sm-0 col-sm-6 col-md-3 px-1 px-md-3">
+                    <div class="d-flex flex-column">
+                        <div class="text-center mb-3 p-3 imgWrap proImg">
+                            <img class="img-fluid" src="img/Categories/perfume.png">
+                            <p class="fw-bold fs-5 mt-3">Beauty</p>
+                        </div>
+    
+                        <div class="text-center mt-3 p-3 imgWrap proImg">
+                            <img class="img-fluid" src="img/Categories/shoe.png">
+                            <p class="fw-bold fs-5 mt-3">Shoes</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6">
+                    <div class="text-center imgWrap">
+                        <img class="img-fluid" src="img/Categories/pale-order.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
     
 
     <!--Bootstrap JS-->

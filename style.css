@@ -59,24 +59,9 @@ section .proWrap img{
     width: 50px;
 }
 
-@media only screen and (max-width: 767px){
-    .slider .innerBg{
-        background-position: right bottom;
-        background-size: auto 75%;
-    }
-
-    section .proWrap h4{
-        font-size: 18px;
-    }
-
-    section .proWrap p{
-        font-size: 14px;
-    }
-}
-
 .category h2::before{
     content: '';
-    width: 130px;
+    width: 120px;
     height: 10px;
     border-radius: 30px;
     transform: translate(-50%);
@@ -89,4 +74,25 @@ section .proWrap img{
 .category .proImg {
     box-shadow: 0 0 25px 0 #b5b2b2;
     border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 767px){
+    .slider .innerBg{
+        background-position: right bottom;
+        background-size: auto 75%;
+    }
+
+    .slider .slideProInfo{
+        padding-right: 0;
+        text-align: center;
+    }
+
+    section .proWrap h4{
+        font-size: 18px;
+    }
+
+    section .proWrap p{
+        font-size: 14px;
+    }
 }
